@@ -5,7 +5,7 @@ import ua.lviv.iot.LabBuilder.manager.Worker;
 public class Stonemason extends Worker{
 	   private int TypeOfWork;
 
-	public Stonemason() {
+	public  Stonemason() {
 		super();
 		 String origin;
 

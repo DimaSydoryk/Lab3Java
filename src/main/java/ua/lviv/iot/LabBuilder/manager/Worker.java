@@ -1,18 +1,18 @@
 package ua.lviv.iot.LabBuilder.manager;
 
-public class Worker {
+public class RestWorker {
 	private String name;
 	private String education;
 	private String typeOfWork;
 	
-	public Worker() {
+	public RestWorker() {
 		 String origin;
 		
 
 	}
 
 
-	public Worker(String name, String education, String typeOfWork) {
+	public RestWorker(String name, String education, String typeOfWork) {
 		super();
 		this.name = name;
 		this.education = education;
