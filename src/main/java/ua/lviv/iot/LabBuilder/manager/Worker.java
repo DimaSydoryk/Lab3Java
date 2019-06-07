@@ -6,7 +6,9 @@ public class Worker {
 	private String typeOfWork;
 	
 	public Worker() {
+		 String origin;
 		
+
 	}
 
 

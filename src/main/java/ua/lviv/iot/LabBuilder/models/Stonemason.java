@@ -3,9 +3,12 @@ package ua.lviv.iot.LabBuilder.models;
 import ua.lviv.iot.LabBuilder.manager.Worker;
 
 public class Stonemason extends Worker{
+	   private int TypeOfWork;
 
 	public Stonemason() {
 		super();
+		 String origin;
+
 	}
 
 	public Stonemason(String name, String education, String typeOfWork) {

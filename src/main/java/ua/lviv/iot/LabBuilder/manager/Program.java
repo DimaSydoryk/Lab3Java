@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 import ua.lviv.iot.LabBuilder.models.Painter;
 import ua.lviv.iot.LabBuilder.models.Plasterer;
-import ua.lviv.iot.LabBuilder.models.Stonemason;1
+import ua.lviv.iot.LabBuilder.models.Stonemason;
 
 public class Program {
+	 private String origin;
+
 	
-public void main(String args[]) {
+public static void main(String args[]) {
   
 	
 	
