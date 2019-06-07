@@ -1,11 +1,15 @@
-package builders;
+package ua.lviv.iot.LabBuilder.models;
 
-import people.Worker;
+
+import ua.lviv.iot.LabBuilder.manager.Worker;
 
 public class Painter extends Worker{
+	   private int TypeOfWork;
 
 	public Painter() {
-		super();
+		 super();
+		 String origin;
+
 	}
 
 	public Painter(String name, String education, String typeOfWork) {

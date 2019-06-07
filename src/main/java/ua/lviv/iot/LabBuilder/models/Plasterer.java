@@ -1,12 +1,14 @@
-package builders;
+package ua.lviv.iot.LabBuilder.models;
 
-import people.Worker;
+import ua.lviv.iot.LabBuilder.manager.Worker;
 
 public class Plasterer extends Worker{
-
+   private int TypeOfWork;
 	public Plasterer() {
 		super();
 		// TODO Auto-generated constructor stub
+		 String origin;
+
 	}
 	
 	public Plasterer(String name, String education, String typeOfWork) {
@@ -23,5 +25,11 @@ public class Plasterer extends Worker{
 		 	return "Name: " + getName() + ", Education: " + getEducation() + ", TypeOfWork: "
 				+ getTypeOfWork();
 	}
+
+
+	
+	
+	
+	
 
 }
