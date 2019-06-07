@@ -1,6 +1,6 @@
-package builders;
+package ua.lviv.iot.LabBuilder.models;
 
-import people.Worker;
+import ua.lviv.iot.LabBuilder.manager.Worker;
 
 public class Plasterer extends Worker{
 
@@ -23,5 +23,11 @@ public class Plasterer extends Worker{
 		 	return "Name: " + getName() + ", Education: " + getEducation() + ", TypeOfWork: "
 				+ getTypeOfWork();
 	}
+
+
+	
+	
+	
+	
 
 }
